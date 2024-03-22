@@ -1,0 +1,43 @@
+#home-root{
+    position: fixed;
+    width: 50%;
+    left: calc(50% - 25%);
+    height: calc(100% - 50px);
+    transition: all 0.1s ease-in-out;
+    border: 2px solid rgb(96, 96, 96);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-radius: 10px;
+    z-index: 6;
+    display: grid;
+    grid-template-rows: 50px calc(100% - 50px);
+}
+.home-root-hidden{
+    bottom: calc(-100%);
+    backdrop-filter: blur(0px);
+}
+.home-root-show{
+    bottom: 50px;
+    backdrop-filter: blur(10px);
+}
+
+#home-header{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+#home-body{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (orientation: portrait) 
+{
+	#home-root{
+        width: 100%;
+        left: 0;
+    }
+}

@@ -1,0 +1,15 @@
+.toon-player-root{
+    background: var(--accent);
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.toon-player-root .player-element{
+    
+}
+
+.toon-player-root .player-element:hover{
+    
+}

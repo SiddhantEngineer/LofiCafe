@@ -1,0 +1,20 @@
+:root{
+    --accent: rgb(0, 255, 149);
+    --accent-text: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#root{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: auto;
+}

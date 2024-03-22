@@ -1,0 +1,22 @@
+.messagebox-root{
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(130, 130, 130);
+    color: black;
+    width: max-content;
+    max-width: 80%;
+    height: max-content;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    clear: both;
+}
+
+.messagebox-sent{
+    float: right;
+}
+
+
+.messagebox-recieved{
+    float: left;
+}

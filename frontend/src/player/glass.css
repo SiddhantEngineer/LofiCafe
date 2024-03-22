@@ -1,0 +1,19 @@
+.glass-player-root{
+    border: 2px solid rgb(82, 82, 82);
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.glass-player-root .player-element{
+    transition: all 0.1s;
+}
+
+.glass-player-root .player-element:hover{
+    
+}
+
+.glass-player-root .active{
+    background: var(--accent);
+}
