@@ -4,7 +4,7 @@ import Player from "./player/player";
 import Home from "./home/home";
 
 export default function App() {
-  const [wallImage, setWallImage] = useState("BG1.jpg");
+  const [wallImage, setWallImage] = useState("BG3.jpg");
   const [home, setHome] = useState(true);
   const [state, setState] = useState("chats");
   return (

@@ -38,9 +38,15 @@ function Player({ home, setHome, state, setState }: Props) {
       >
         chats
       </div>
-      <div className="player-element">prev</div>
-      <div className="player-element">play / pause</div>
-      <div className="player-element">next</div>
+      <div className="player-element">
+        <img width="25%" src="rewind.svg"></img>
+      </div>
+      <div className="player-element">
+        <img width="25%" src="play.svg"></img>
+      </div>
+      <div className="player-element">
+        <img width="25%" src="forward.svg"></img>
+      </div>
     </div>
   );
 }
